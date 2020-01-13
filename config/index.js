@@ -20,7 +20,7 @@ module.exports = {
         assetsPublicPath: '/',
         proxyTable: {
             '/mis':{
-                target:'http://192.168.5.201:8623/mis/',
+                target:'http://192.168.4.212:8623/mis/',
                 changeOrigin:true,
                 pathRewrite:{
                     '/mis':''
