@@ -289,6 +289,7 @@
 							res.data.times = [res.data.startTime, res.data.endTime]
 						}
 						this.addParam = res.data
+						this.$refs['addParam'].resetFields();
 					})
 				}
 			},

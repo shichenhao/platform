@@ -282,6 +282,7 @@
 						res.data.merchantBank = res.data.merchantAccInfoResponse.merchantBank
 						res.data.merchantCard = res.data.merchantAccInfoResponse.merchantCard
 						this.addParam = res.data
+						this.$refs['addParam'].resetFields();
 					})
 				}
 			},
